@@ -9,6 +9,13 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <style>
+
+  #rocket {
+    width: 475px; /* width of container */
+    height: 285px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 10px; 
+  }
   img{
     width: 100%;
   }
@@ -27,7 +34,7 @@
 }
 
 .higher {
-  bottom: 100px;
+  bottom: 40px;
 }
 .realhigh {
   bottom: 280px;
@@ -63,7 +70,7 @@
             </div>
             </div>
             <div class="col-sm-6 col-md-6">
-              <a href="./art.html"><img src="./assets/rocket.JPG" alt="Team Rocket"></a>
+              <a href="./art.html"><img src="./assets/rocket.JPG" alt="Team Rocket" id="rocket"></a>
               <div class="text-block">
                 <h4>Art</h4>
               </div>
